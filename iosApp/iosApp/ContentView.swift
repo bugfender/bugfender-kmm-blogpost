@@ -18,7 +18,6 @@ struct ContentView: View {
             }
             Button(action: {
                 self.result = "Result: \(Calculator().divide(dividend: (self.dividend as NSString).floatValue, divisor: (self.divisor as NSString).floatValue))"
-                BFLogger().log(msg: "This is a log from iOS!")
             }) {
                 Text("Calculate")
             }

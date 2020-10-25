@@ -26,9 +26,6 @@ class MainActivity : AppCompatActivity() {
             // Call to Kotlin Multiplatform
             val result = Calculator().divide(dividend = dividend, divisor = divisor)
             resultTv.text = "Result $result"
-
-            // Log to Bugfender
-            BFLogger.log("The result of the division is $result")
         }
     }
 }
