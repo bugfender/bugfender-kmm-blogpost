@@ -14,3 +14,4 @@
 .cxx
 local.properties
 /shared/build
+**/build
