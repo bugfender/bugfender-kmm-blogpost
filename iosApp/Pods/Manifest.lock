@@ -1,0 +1,23 @@
+PODS:
+  - BugfenderSDK (1.8.0)
+  - shared (1.0):
+    - BugfenderSDK (= 1.8)
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - BugfenderSDK
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  BugfenderSDK: 56e60f679287a98a19d5c9df1ea00cd7be922276
+  shared: 10c3f7b692e530cc2827b848bc420056fe86779f
+
+PODFILE CHECKSUM: 9b320bf09bb68c8a08f21d1d58bc63a610ae4994
+
+COCOAPODS: 1.9.3

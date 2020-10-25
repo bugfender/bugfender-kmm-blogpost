@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dividendTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divide "
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dividendEt"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@id/dividendTv"
+        app:layout_constraintTop_toTopOf="@id/dividendTv"
+        app:layout_constraintStart_toEndOf="@id/dividendTv" />
+
+    <TextView
+        android:id="@+id/twoDdots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        app:layout_constraintBottom_toBottomOf="@id/dividendTv"
+        app:layout_constraintTop_toTopOf="@id/dividendTv"
+        app:layout_constraintStart_toEndOf="@id/dividendEt" />
+
+    <EditText
+        android:id="@+id/divisorEt"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@id/dividendTv"
+        app:layout_constraintTop_toTopOf="@id/dividendTv"
+        app:layout_constraintStart_toEndOf="@id/twoDdots" />
+
+    <Button
+        android:id="@+id/calculateBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Calculate"
+        app:layout_constraintStart_toStartOf="@id/dividendTv"
+        app:layout_constraintTop_toBottomOf="@id/dividendTv" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Result: "
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="@id/calculateBt"
+        app:layout_constraintTop_toBottomOf="@id/calculateBt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

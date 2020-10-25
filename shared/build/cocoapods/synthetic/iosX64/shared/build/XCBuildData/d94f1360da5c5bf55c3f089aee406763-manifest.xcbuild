@@ -1,0 +1,18 @@
+client:
+  name: basic
+  version: 0
+  file-system: default
+
+targets:
+  "": ["<all>"]
+
+commands:
+  "<all>": {"tool":"phony","inputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--end>","<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--immediate>","<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--modules-ready>"],"outputs":["<all>"]}
+  "<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a-Release-iphonesimulator-arm64-i386-x86_64-stale-file-removal>": {"tool":"stale-file-removal","expectedOutputs":[],"roots":["/tmp/Pods.dst","/Users/rubenvot/Developer/bugfender/kmm/BugfenderKMM/shared/build/cocoapods/synthetic/iosX64/shared/build","/Users/rubenvot/Developer/bugfender/kmm/BugfenderKMM/shared/build/cocoapods/synthetic/iosX64/shared/build"],"outputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a-Release-iphonesimulator-arm64-i386-x86_64-stale-file-removal>"]}
+  "Gate target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--begin-compiling": {"tool":"phony","inputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a-Release-iphonesimulator-arm64-i386-x86_64-stale-file-removal>"],"outputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--begin-compiling>"]}
+  "Gate target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--end": {"tool":"phony","inputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--entry>","<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--phase0-copy-files>"],"outputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--end>"]}
+  "Gate target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--entry": {"tool":"phony","inputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a-Release-iphonesimulator-arm64-i386-x86_64-stale-file-removal>","<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--begin-compiling>"],"outputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--entry>"]}
+  "Gate target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--immediate": {"tool":"phony","inputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a-Release-iphonesimulator-arm64-i386-x86_64-stale-file-removal>"],"outputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--immediate>"]}
+  "Gate target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--modules-ready": {"tool":"phony","inputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--begin-compiling>"],"outputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--modules-ready>"]}
+  "Gate target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--phase0-copy-files": {"tool":"phony","inputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--start>","<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--begin-compiling>"],"outputs":["<target-BugfenderSDK-f1d18cabe4a7fb6687f02fa3123f2122242976b02fdc7ea12faacab6cd47e79a--phase0-copy-files>"]}
+

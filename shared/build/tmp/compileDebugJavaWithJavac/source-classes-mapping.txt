@@ -1,0 +1,2 @@
+com/bugfender/bugfenderkmm/android/BuildConfig.java
+ com.bugfender.bugfenderkmm.android.BuildConfig

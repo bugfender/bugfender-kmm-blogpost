@@ -1,0 +1,4 @@
+com/bugfender/bugfenderkmm/androidApp/BuildConfig.java
+ com.bugfender.bugfenderkmm.androidApp.BuildConfig
+com/bugfender/bugfenderkmm/androidApp/databinding/ActivityMainBinding.java
+ com.bugfender.bugfenderkmm.androidApp.databinding.ActivityMainBinding

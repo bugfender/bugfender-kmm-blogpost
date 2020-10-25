@@ -1,0 +1,23 @@
+PODS:
+  - BugfenderSDK (1.8.0)
+  - shared (1.0):
+    - BugfenderSDK (= 1.8)
+
+DEPENDENCIES:
+  - shared (from `../../../../../shared.podspec`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BugfenderSDK
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../../../../../shared.podspec"
+
+SPEC CHECKSUMS:
+  BugfenderSDK: 5339f373a4c50f7afe155d6b117d52959dae3c7e
+  shared: 10c3f7b692e530cc2827b848bc420056fe86779f
+
+PODFILE CHECKSUM: 8b1cbef48028b9667c736bf3719498fcec447a6b
+
+COCOAPODS: 1.9.3
