@@ -15,3 +15,7 @@
 local.properties
 /shared/build
 **/build
+
+ 
+#Xcode User settings
+xcuserdata/
